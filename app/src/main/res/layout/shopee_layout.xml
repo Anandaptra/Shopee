@@ -275,8 +275,9 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="78dp"
                 android:layout_height="89dp"
-                android:layout_margin="8dp"
-                android:background="@color/white">
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                >
 
                 <ImageView
                     android:id="@+id/imageView11"
@@ -285,9 +286,10 @@
                     android:src="@drawable/pay"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.102" />
+                    app:layout_constraintVertical_bias="0.111" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -539,12 +541,12 @@
                    android:id="@+id/imageView22"
                    android:layout_width="145dp"
                    android:layout_height="85dp"
-                   android:layout_marginStart="16dp"
+                   android:layout_marginStart="4dp"
                    android:src="@drawable/promo"
                    app:layout_constraintBottom_toBottomOf="parent"
                    app:layout_constraintStart_toEndOf="@+id/imageView21"
                    app:layout_constraintTop_toTopOf="parent"
-                   app:layout_constraintVertical_bias="0.05" />
+                   app:layout_constraintVertical_bias="0.043" />
 
                <ImageView
                    android:layout_width="93dp"
